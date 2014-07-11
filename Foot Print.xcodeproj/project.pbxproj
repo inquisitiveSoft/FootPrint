@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AD7A53319705610006551B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD7A53219705610006551B4 /* Foundation.framework */; };
+		4AD7A53519705610006551B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD7A53419705610006551B4 /* CoreGraphics.framework */; };
+		4AD7A53719705610006551B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD7A53619705610006551B4 /* UIKit.framework */; };
+		4AD7A53D19705610006551B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AD7A53B19705610006551B4 /* InfoPlist.strings */; };
+		4AD7A53F19705610006551B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD7A53E19705610006551B4 /* main.m */; };
+		4AD7A54319705610006551B4 /* FPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD7A54219705610006551B4 /* FPAppDelegate.m */; };
+		4AD7A54619705610006551B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD7A54419705610006551B4 /* Main.storyboard */; };
+		4AD7A54919705610006551B4 /* FPFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD7A54819705610006551B4 /* FPFirstViewController.m */; };
+		4AD7A54C19705610006551B4 /* FPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD7A54B19705610006551B4 /* FPSecondViewController.m */; };
+		4AD7A54E19705610006551B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD7A54D19705610006551B4 /* Images.xcassets */; };
+		4AD7A55519705610006551B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD7A55419705610006551B4 /* XCTest.framework */; };
+		4AD7A55619705610006551B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD7A53219705610006551B4 /* Foundation.framework */; };
+		4AD7A55719705610006551B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD7A53619705610006551B4 /* UIKit.framework */; };
+		4AD7A55F19705610006551B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AD7A55D19705610006551B4 /* InfoPlist.strings */; };
+		4AD7A56119705610006551B4 /* Foot_PrintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD7A56019705610006551B4 /* Foot_PrintTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AD7A55819705610006551B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AD7A52719705610006551B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AD7A52E19705610006551B4;
+			remoteInfo = "Foot Print";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AD7A52F19705610006551B4 /* Foot Print.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foot Print.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD7A53219705610006551B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4AD7A53419705610006551B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4AD7A53619705610006551B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4AD7A53A19705610006551B4 /* Foot Print-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Foot Print-Info.plist"; sourceTree = "<group>"; };
+		4AD7A53C19705610006551B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4AD7A53E19705610006551B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AD7A54019705610006551B4 /* Foot Print-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foot Print-Prefix.pch"; sourceTree = "<group>"; };
+		4AD7A54119705610006551B4 /* FPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPAppDelegate.h; sourceTree = "<group>"; };
+		4AD7A54219705610006551B4 /* FPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPAppDelegate.m; sourceTree = "<group>"; };
+		4AD7A54519705610006551B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AD7A54719705610006551B4 /* FPFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPFirstViewController.h; sourceTree = "<group>"; };
+		4AD7A54819705610006551B4 /* FPFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPFirstViewController.m; sourceTree = "<group>"; };
+		4AD7A54A19705610006551B4 /* FPSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPSecondViewController.h; sourceTree = "<group>"; };
+		4AD7A54B19705610006551B4 /* FPSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPSecondViewController.m; sourceTree = "<group>"; };
+		4AD7A54D19705610006551B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4AD7A55319705610006551B4 /* Foot PrintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Foot PrintTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD7A55419705610006551B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4AD7A55C19705610006551B4 /* Foot PrintTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Foot PrintTests-Info.plist"; sourceTree = "<group>"; };
+		4AD7A55E19705610006551B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4AD7A56019705610006551B4 /* Foot_PrintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Foot_PrintTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AD7A52C19705610006551B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD7A53519705610006551B4 /* CoreGraphics.framework in Frameworks */,
+				4AD7A53719705610006551B4 /* UIKit.framework in Frameworks */,
+				4AD7A53319705610006551B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD7A55019705610006551B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD7A55519705610006551B4 /* XCTest.framework in Frameworks */,
+				4AD7A55719705610006551B4 /* UIKit.framework in Frameworks */,
+				4AD7A55619705610006551B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AD7A52619705610006551B4 = {
+			isa = PBXGroup;
+			children = (
+				4AD7A53819705610006551B4 /* Foot Print */,
+				4AD7A55A19705610006551B4 /* Foot PrintTests */,
+				4AD7A53119705610006551B4 /* Frameworks */,
+				4AD7A53019705610006551B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AD7A53019705610006551B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7A52F19705610006551B4 /* Foot Print.app */,
+				4AD7A55319705610006551B4 /* Foot PrintTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AD7A53119705610006551B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7A53219705610006551B4 /* Foundation.framework */,
+				4AD7A53419705610006551B4 /* CoreGraphics.framework */,
+				4AD7A53619705610006551B4 /* UIKit.framework */,
+				4AD7A55419705610006551B4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AD7A53819705610006551B4 /* Foot Print */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7A54119705610006551B4 /* FPAppDelegate.h */,
+				4AD7A54219705610006551B4 /* FPAppDelegate.m */,
+				4AD7A54419705610006551B4 /* Main.storyboard */,
+				4AD7A54719705610006551B4 /* FPFirstViewController.h */,
+				4AD7A54819705610006551B4 /* FPFirstViewController.m */,
+				4AD7A54A19705610006551B4 /* FPSecondViewController.h */,
+				4AD7A54B19705610006551B4 /* FPSecondViewController.m */,
+				4AD7A54D19705610006551B4 /* Images.xcassets */,
+				4AD7A53919705610006551B4 /* Supporting Files */,
+			);
+			path = "Foot Print";
+			sourceTree = "<group>";
+		};
+		4AD7A53919705610006551B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7A53A19705610006551B4 /* Foot Print-Info.plist */,
+				4AD7A53B19705610006551B4 /* InfoPlist.strings */,
+				4AD7A53E19705610006551B4 /* main.m */,
+				4AD7A54019705610006551B4 /* Foot Print-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AD7A55A19705610006551B4 /* Foot PrintTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7A56019705610006551B4 /* Foot_PrintTests.m */,
+				4AD7A55B19705610006551B4 /* Supporting Files */,
+			);
+			path = "Foot PrintTests";
+			sourceTree = "<group>";
+		};
+		4AD7A55B19705610006551B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AD7A55C19705610006551B4 /* Foot PrintTests-Info.plist */,
+				4AD7A55D19705610006551B4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AD7A52E19705610006551B4 /* Foot Print */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD7A56419705610006551B4 /* Build configuration list for PBXNativeTarget "Foot Print" */;
+			buildPhases = (
+				4AD7A52B19705610006551B4 /* Sources */,
+				4AD7A52C19705610006551B4 /* Frameworks */,
+				4AD7A52D19705610006551B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Foot Print";
+			productName = "Foot Print";
+			productReference = 4AD7A52F19705610006551B4 /* Foot Print.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AD7A55219705610006551B4 /* Foot PrintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD7A56719705610006551B4 /* Build configuration list for PBXNativeTarget "Foot PrintTests" */;
+			buildPhases = (
+				4AD7A54F19705610006551B4 /* Sources */,
+				4AD7A55019705610006551B4 /* Frameworks */,
+				4AD7A55119705610006551B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AD7A55919705610006551B4 /* PBXTargetDependency */,
+			);
+			name = "Foot PrintTests";
+			productName = "Foot PrintTests";
+			productReference = 4AD7A55319705610006551B4 /* Foot PrintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AD7A52719705610006551B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tradebox Media";
+				TargetAttributes = {
+					4AD7A55219705610006551B4 = {
+						TestTargetID = 4AD7A52E19705610006551B4;
+					};
+				};
+			};
+			buildConfigurationList = 4AD7A52A19705610006551B4 /* Build configuration list for PBXProject "Foot Print" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AD7A52619705610006551B4;
+			productRefGroup = 4AD7A53019705610006551B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AD7A52E19705610006551B4 /* Foot Print */,
+				4AD7A55219705610006551B4 /* Foot PrintTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AD7A52D19705610006551B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD7A54E19705610006551B4 /* Images.xcassets in Resources */,
+				4AD7A53D19705610006551B4 /* InfoPlist.strings in Resources */,
+				4AD7A54619705610006551B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD7A55119705610006551B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD7A55F19705610006551B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AD7A52B19705610006551B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD7A54C19705610006551B4 /* FPSecondViewController.m in Sources */,
+				4AD7A54319705610006551B4 /* FPAppDelegate.m in Sources */,
+				4AD7A53F19705610006551B4 /* main.m in Sources */,
+				4AD7A54919705610006551B4 /* FPFirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD7A54F19705610006551B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD7A56119705610006551B4 /* Foot_PrintTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AD7A55919705610006551B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AD7A52E19705610006551B4 /* Foot Print */;
+			targetProxy = 4AD7A55819705610006551B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AD7A53B19705610006551B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AD7A53C19705610006551B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4AD7A54419705610006551B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AD7A54519705610006551B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AD7A55D19705610006551B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AD7A55E19705610006551B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AD7A56219705610006551B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4AD7A56319705610006551B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AD7A56519705610006551B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Foot Print/Foot Print-Prefix.pch";
+				INFOPLIST_FILE = "Foot Print/Foot Print-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4AD7A56619705610006551B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Foot Print/Foot Print-Prefix.pch";
+				INFOPLIST_FILE = "Foot Print/Foot Print-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4AD7A56819705610006551B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Foot Print.app/Foot Print";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Foot Print/Foot Print-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Foot PrintTests/Foot PrintTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4AD7A56919705610006551B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Foot Print.app/Foot Print";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Foot Print/Foot Print-Prefix.pch";
+				INFOPLIST_FILE = "Foot PrintTests/Foot PrintTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AD7A52A19705610006551B4 /* Build configuration list for PBXProject "Foot Print" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD7A56219705610006551B4 /* Debug */,
+				4AD7A56319705610006551B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AD7A56419705610006551B4 /* Build configuration list for PBXNativeTarget "Foot Print" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD7A56519705610006551B4 /* Debug */,
+				4AD7A56619705610006551B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AD7A56719705610006551B4 /* Build configuration list for PBXNativeTarget "Foot PrintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD7A56819705610006551B4 /* Debug */,
+				4AD7A56919705610006551B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AD7A52719705610006551B4 /* Project object */;
+}
